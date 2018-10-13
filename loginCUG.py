@@ -3,8 +3,8 @@ import re
 
 url = "http://192.168.168.46/?$USERURL"
 data = {
-    'username': '20161002214',
-    'password': '18279527706'
+    'username': '',
+    'password': ''
 }
 r = requests.post(url=url, data=data)
 html = r.text
